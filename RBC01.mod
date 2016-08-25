@@ -38,8 +38,8 @@ r+delta =(1-alpha)*y/kap;
 y       =c+innv+g;
 kap(+1) =(1-delta)*kap+innv;
 y       =z*kap^(1-alpha)*lab^alpha;
-log(z)   =(1-rho_z)*log(z_ss) + rho_z*log(z(-1)) + e_z;
-log(g)   =(1-rho_g)*log(g_ss) + rho_g*log(g(-1)) + e_g;
+log(z)  =(1-rho_z)*log(z_ss) + rho_z*log(z(-1)) + e_z;
+log(g)  =(1-rho_g)*log(g_ss) + rho_g*log(g(-1)) + e_g;
 end;
 
 steady_state_model;
