@@ -1,8 +1,9 @@
-//   TeorÌa Macrodin·mica 
-//        2016 - II 
-//       FIEECS - UNI
+%%%%%%%%%%%%%%%%%%%%%   Teor√≠a Macrodin√°mica %%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%       FIEECS - UNI     %%%%%%%%%%%%%%%%%%%%%%
 
-// Modelo RBC B·sico no lineal
+// C√≥digo que describe un modelo RBC b√°sico linealizado. El Estado
+// Estacionario es obtenido manualmente. Tener en cuenta que el
+// capital es una variable predeterminada. 
 
 var lab c w r y kap innv z g;
 predetermined_variables kap;
