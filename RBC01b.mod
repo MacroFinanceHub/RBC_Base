@@ -1,8 +1,9 @@
-//   Teor�a Macrodin�mica 
-//        2016 - II 
-//       FIEECS - UNI
+%%%%%%%%%%%%%%%%%%%%%   Teoría Macrodinámica %%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%       FIEECS - UNI     %%%%%%%%%%%%%%%%%%%%%%
 
-// Modelo RBC B�sico no lineal, componentes exponenciales para log-linealizaci�n
+// Código que describe un modelo RBC básico loglinealizado (expansión de
+// Taylor de 1er orden). Las CPO se presentan de forma no lineal.
+// El Estado Estacionario es obtenido manualmente.
 
 var lab c w r y kap innv z g;
 predetermined_variables kap;
