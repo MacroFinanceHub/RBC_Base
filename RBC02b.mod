@@ -1,8 +1,10 @@
-//   Teor�a Macrodin�mica 
-//        2016 - II 
-//       FIEECS - UNI
+%%%%%%%%%%%%%%%%%%%%%   Teoría Macrodinámica %%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%       FIEECS - UNI     %%%%%%%%%%%%%%%%%%%%%%
 
-// Modelo RBC B�sico, loglinealizado manualmente, trabajo fijo
+// Código que describe un modelo RBC básico loglinealizado (expansión de
+// Taylor de 1er orden). Las CPO se presentan de forma lineal (manualmente).
+// Considera TRABAJO FIJO. El Estado Estacionario es obtenido manualmente.
+// © Carlos Rojas Quiroz 
 
 var lab c w r y kap innv z g;
 predetermined_variables kap;
