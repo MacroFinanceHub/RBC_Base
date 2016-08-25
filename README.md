@@ -1,10 +1,13 @@
 # RBC_Base
-Modelo de Ciclo Económico Real Básico
+Modelos de Ciclo Económico Real Básico
 
-El modelo utiliza el entorno Dynare para Matlab. Está compuesto de Consumidores, Productores y Gobierno que actúan en competencia perfecta. Los consumidores son dueños del capital. 
+Los modelos utilizan el entorno Dynare para Matlab. Todos ellos estan compuestos de Consumidores, Productores y Gobierno que actúan en competencia perfecta. Los consumidores son dueños del capital. 
 
 La calibración sigue a Fernández-Villaverde (Lecture Notes on Macroeconomics). 
 
-Tal como está escrito el modelo, sus resultados mostrarán la dinámica de las variables "linealizadas". 
+RBC01.mod  muestra las condiciones de primer orden (CPO) no lineales, para que sean linealizadas mediante una expansión de Taylor de primer orden. 
+RBC01b.mod muestra las CPO no lineales, para que sean log-linealizadas mediante una expansión de Taylor de primer orden. 
+RBC02.mod  muestra las CPO log-linealizadas manualmente. 
+RBC02b.mod muestra el modelo considerando que la oferta de trabajo es fija (efectos sustitución e ingreso se cancelan).
 
-(c) Carlos Rojas Quiroz
+© Carlos Rojas Quiroz
