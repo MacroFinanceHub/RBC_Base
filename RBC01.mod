@@ -1,9 +1,9 @@
 %%%%%%%%%%%%%%%%%%%%%   Teoría Macrodinámica %%%%%%%%%%%%%%%%%%%%%% 
 %%%%%%%%%%%%%%%%%%%%%       FIEECS - UNI     %%%%%%%%%%%%%%%%%%%%%%
 
-// Código que describe un modelo RBC básico linealizado. El Estado
-// Estacionario es obtenido manualmente. Tener en cuenta que el
-// capital es una variable predeterminada. 
+// Código que describe un modelo RBC básico linealizado (expansión de
+// Taylor de 1er orden). Las CPO se presentan de forma no lineal.
+// El Estado Estacionario es obtenido manualmente.
 
 var lab c w r y kap innv z g;
 predetermined_variables kap;
