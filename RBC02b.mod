@@ -1,10 +1,13 @@
-%%%%%%%%%%%%%%%%%%%%%   Teoría Macrodinámica %%%%%%%%%%%%%%%%%%%%%% 
-%%%%%%%%%%%%%%%%%%%%%       FIEECS - UNI     %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%% Teoría Macrodinámica %%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%    FIEECS - UNI      %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-// Código que describe un modelo RBC básico loglinealizado (expansión de
+// Codigo que describe un modelo RBC basico loglinealizado (expansion de
 // Taylor de 1er orden). Las CPO se presentan de forma lineal (manualmente).
 // Considera TRABAJO FIJO. El Estado Estacionario es obtenido manualmente.
-// © Carlos Rojas Quiroz 
+// La funcion de utilidad corresponde a la forma logaritmico-lineal
+// (c) Carlos Rojas Quiroz 
 
 var lab c w r y kap innv z g;
 predetermined_variables kap;
