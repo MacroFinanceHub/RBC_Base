@@ -6,7 +6,7 @@
 // Codigo que describe un modelo RBC basico linealizado (expansion de
 // Taylor de 1er orden). Las CPO se presentan de forma no lineal.
 // El Estado Estacionario es obtenido manualmente.
-// La funcion de utilidad corresponde a la forma logarítmico-lineal. 
+// La funcion de utilidad corresponde a la forma logaritmico-lineal. 
 // (c) Carlos Rojas Quiroz 
 
 var lab c w r y kap innv z g;
