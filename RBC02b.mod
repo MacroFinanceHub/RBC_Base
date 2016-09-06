@@ -16,14 +16,13 @@ parameters alpha delta betta theta rho_z rho_g
 z_ss lab_ss r_ss  kap_ss w_ss y_ss c_ss inv_ss g_ss C_Y I_Y G_Y;
 
 alpha  = 1-0.33;
-delta  = 1;
+delta  = 0.023;
 betta  = 0.99;
 theta  = 1/2.75;
 rho_z  = 0.95;
 rho_g  = 0.75;
 z_ss   = 1;
-g_ss   = 0;
-G_Y    = 0;
+G_Y    = 0.155;
 lab_ss = 1/((1-theta)/(alpha*theta*z_ss)*((1-betta+alpha*betta*delta)/(1-betta+betta*delta)-G_Y)+1);
 y_ss   = z_ss*(((1-alpha)*betta/(1-betta+betta*delta))^((1-alpha)/alpha))*lab_ss;
 w_ss   = alpha*y_ss/lab_ss;
@@ -31,11 +30,12 @@ kap_ss = (1-alpha)*betta/(1-betta+betta*delta)*y_ss;
 inv_ss = delta*kap_ss;
 r_ss   = (1-alpha)*y_ss/kap_ss-delta;
 c_ss   = ((1-betta+alpha*betta*delta)/(1-betta+betta*delta)-G_Y)*y_ss;
+g_ss   = G_Y*y_ss;
 C_Y    = c_ss/y_ss;
 I_Y    = inv_ss/y_ss;
 
 model (linear);
-w = (lab_ss/(1-lab_ss))*lab + c;
+lab=lab_ss;
 c = c(+1) - (1-betta)*r(+1);
 w = y - lab;
 r_ss*r = (1-alpha)*y_ss/kap_ss*(y-kap);
